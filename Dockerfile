@@ -12,7 +12,8 @@ RUN apt-get update \
     sendmail-bin \ 
     sendmail \ 
     sudo \ 
-    zip libzip-dev
+    zip libzip-dev \ 
+    git
 
 # Configure the gd library
 RUN docker-php-ext-configure \
